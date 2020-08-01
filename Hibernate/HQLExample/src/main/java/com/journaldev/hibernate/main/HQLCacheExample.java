@@ -16,8 +16,8 @@ public class HQLCacheExample {
 		Session session = sessionFactory.getCurrentSession();
 
 		// Get All Employees
-		Transaction tx = session.beginTransaction();
-
+		Transaction tx = session.beginTransaction();zz
+z
 		// Get Employee with id=3
 		Query query = session.createQuery("from Employee where id= 3");
 		Employee emp = (Employee) query.uniqueResult();
